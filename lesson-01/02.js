@@ -1,9 +1,9 @@
 // code
 function evenOdd() {
-  let number = Math.floor(Math.random() * 100);
-  return number % 2 === 0
-    ? `${number} :Это четное число`
-    : `${number} :Это нечетное число`;
+  let number1 = Math.floor(Math.random() * 100);
+  return number1 % 2 === 0
+    ? `${number1} :Это четное число`
+    : `${number1} :Это нечетное число`;
 }
 
 console.log(evenOdd());
