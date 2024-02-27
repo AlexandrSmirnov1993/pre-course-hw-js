@@ -61,8 +61,6 @@ const users = [
   },
 ];
 
-function isEven(obj) {
-  return obj.id % 2 === 0;
-}
 
-console.log(users.filter(isEven));
+
+console.log(users.filter((obj) => obj.id % 2 === 0));
