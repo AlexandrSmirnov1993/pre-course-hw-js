@@ -60,7 +60,5 @@ const users = [
     address: "753 Cherry St",
   },
 ];
-
-
-
-console.log(users.filter((obj) => obj.id % 2 === 0));
+const filteredArray = users.filter((obj) => obj.id % 2 === 0);
+console.log(filteredArray);
